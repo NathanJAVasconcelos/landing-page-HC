@@ -50,7 +50,7 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 100px;
+  padding: 1.25rem 6.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,8 +73,8 @@ header{
 
 .nav li a{
   display: inline-block;
-  margin-left: 10px;
-  padding: 10px 15px;
+  margin-left: 0.625rem;
+  padding: 0.625rem 0.9375rem;
   font-weight: 600;
 }
 
@@ -88,6 +88,7 @@ header{
 /* Cadastro */
 
 .container{
+  padding-top: 1.875rem;
   position: relative;
   width: 100%;
   display: flex;
@@ -97,7 +98,7 @@ header{
 
 .txt-box{
   position: relative;
-  max-width: 600px;
+  max-width: 37.5rem;
 }
 
 .subtitle{
@@ -111,26 +112,26 @@ header{
 }
 
 .txt-box p{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, .15);
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  box-shadow: 0.3125rem 0.3215rem 0.9375rem 0rem rgba(44, 44, 44, .15);
 }
 
 .img-box{
   position: relative;
-  max-width: 600px;
+  max-width: 37.5rem;
   z-index: 1;
   display: flex;
   justify-content: flex-end;
 }
 
 .img-box img{
-  max-width: 300px;
-  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, .15);
+  max-width: 18.75rem;
+  box-shadow: 0.3125rem 0.3215rem 0.9375rem 0rem rgba(44, 44, 44, .15);
 }
 
 .register-form{
-  height: 40px;
+  height: 2.5rem;
   display: flex;
   justify-content: flex-start;
 }
@@ -138,9 +139,9 @@ header{
 .register-form i{
   color: #fff;
   background: #df4b33;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 10px;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding: 0 0.625rem;
 }
 
 .txt-register, .btn-register{
@@ -149,14 +150,14 @@ header{
 }
 
 .txt-register{
-  width: 260px;
-  padding: 0 10px;
+  width: 16.25rem;
+  padding: 0 0.625rem;
 }
 
 .btn-register{
   color: #fff;
   background: #df4b33;
-  padding: 0 10px;
+  padding: 0 0.625rem;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -170,12 +171,12 @@ header{
 }
 
 .big{
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
   font-size: 2em;
 }
 
 .products{
-  padding-top: 40px;
+  padding-top: 2.5rem;
   flex-direction: column;
 }
 
@@ -184,7 +185,7 @@ header{
 }
 
 .products .txt-box{
-  max-width: 900px;
+  max-width: 56.25rem;
 }
 
 .products i{
@@ -197,46 +198,46 @@ header{
 .catalog{
   display: grid;
   place-items: center center;
-  max-width: 900px;
+  max-width: 56.25rem;
 }
 
 .catalog .big{
-  padding-top: 80px;
+  padding-top: 5rem;
 }
 
 .catalog img{
   width: 100%;
   display: block;
-  border-radius: 20px 20px 0 0;
+  border-radius: 1.25rem 1.25rem 0 0;
 }
 
 .cards{
   display: grid;
-  grid-template-columns: repeat(autofit, minmax(400px,1fr));
-  padding: 20px;
-  gap: 40px;
+  grid-template-columns: repeat(autofit, minmax(25rem,1fr));
+  padding: 1.25rem;
+  gap: 2.5rem;
 }
 
 .card{
   background-color: #df4b33;
-  border-radius: 20px;
-  box-shadow: 0 0 30px rgba(0,0,0,0.18);
+  border-radius: 1.25rem;
+  box-shadow: 0 0 1.875rem rgba(0,0,0,0.18);
 }
 
 .container-card{
   position: relative;
-  clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+  clip-path: polygon(0 0,100% 0, 100% 75%, 0 100%);
 }
 
 .txt{
-  padding: 20px 10px;
+  padding: 1.25rem 0.625rem;
 }
 
 
 /* footer */
 
 footer{
-  padding-top: 80px;
+  padding-top: 5rem;
   position: relative;
   display: flex;
   justify-content: center;
@@ -247,7 +248,7 @@ footer{
 @media (max-width: 768px){
 
   header{
-    padding: 20px;
+    padding: 1.25rem;
   }
 
   .nav{
@@ -256,14 +257,14 @@ footer{
 
   .hamburguer{
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     cursor: pointer;
     background: url(img/menu-icon-24.png);
     filter: invert(100%);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 25px;
+    background-size: 1.5625rem;
     z-index: 1000;
   }
 
@@ -271,12 +272,12 @@ footer{
     position: fixed;
     top: 0;
     right: 0;
-    padding: 20px;
+    padding: 1.25rem;
     background: url(img/close.png);
     filter: invert(100%);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 25px;
+    background-size: 1.5625rem;
   }
 
   .nav.active{
@@ -306,8 +307,8 @@ footer{
   }
 
   .products .txt-box, .big{
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
   }
 
 
